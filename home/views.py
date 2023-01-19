@@ -50,3 +50,25 @@ def Blocktempo(request):
         'date_block' : date_block
     })
 
+
+# Abmedia 鏈新聞
+w = open('abmedia.txt', 'w', encoding='utf-8')
+url = "https://abmedia.io/blog"
+for i in range(2,4):#爬取2、3頁
+    i = str(i)#轉成字串
+    g = requests.get(url) #將網頁資料GET下來
+    soup = BeautifulSoup(g.text,"html.parser") #將網頁資料以html.parser
+    sel = soup.select("h3.title a") #取HTML標中的class="title"中的<a>標籤存入sel
+    url = "https://abmedia.io/blog/page/" + i
+    for s in sel:
+        w.write((s.text + s["href"]) + '\n')
+w.close() 
+
+r = open('abmedia.txt', 'r', encoding='utf-8')
+date_abmedia = r.read()#將read存入date
+r.close()
+
+def Abmedia(request):
+    return render(request, 'abmedia.html',{
+        'date_abmedia' : date_abmedia
+    })

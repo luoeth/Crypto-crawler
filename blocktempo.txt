@@ -1,32 +1,32 @@
-SushiSwap公布2023路線圖，Q1將推DEX聚合器，優化DAO結構、代幣經濟學https://www.blocktempo.com/sushi-roadmap-goals-for-2023/
-2.1億鎂代幣解鎖》2月將釋出1.45億枚dXdY；DAO 實體已推出路線圖https://www.blocktempo.com/more-than-5-68-million-dydx-will-be-unlocked/
-歐元區支持數位貨幣！英國央行卻質疑「數位英鎊」沒必要https://www.blocktempo.com/the-eurogroup-confirmed-its-support-for-digital-euro-research/
-ChatGPT帶動「AI 概念幣」暴漲380%！微軟擬投OpenAI百億鎂https://www.blocktempo.com/ai-tokens-surge-in-the-past-week/
-FTX破產託管方「把錢弄丟」！不當操作害Alameda錢包 1,000 多萬鎂被清算https://www.blocktempo.com/alameda-wallet-under-liquidator-control-incurred-11-5m-in-losses/
-幣安再燒毀206萬顆BNB！價值 5.75 億美元，包含被駭損失、反黑洞計畫..https://www.blocktempo.com/bnb-22th-burning-2m-token/
-Dragonfly Capital：2023 年別忘的 10 大慘痛教訓，盡職調查占頭位https://www.blocktempo.com/10-top-lessons-must-to-learn-in-2023/
-Waves創辦人：USDN持有者也有「POWER空投」，$Waves兩週大漲75%https://www.blocktempo.com/usdn-holders-will-receive-power-airdrop-as-well/
-2023 春節前加密貨幣市場預測，L2將成最重要敘事板塊https://www.blocktempo.com/predicts-of-2023-by-blue-fox/
-MATIC大漲30%！Polygon共同創辦人喊話：zkEVM主網啟動時間已確定https://www.blocktempo.com/polygon-confirms-mainnet-launch-date/
+總獎金25萬鎂》台北場TON黑客松報名開跑，2/11新黑馬公鏈等你來https://www.blocktempo.com/the-first-tonxdorahacks-in-taiwan/
+懶得打Code也想賺獎金！15人用ChatGPT寫漏洞報告，遭Immunefi永久封殺https://www.blocktempo.com/immunefi-banned-15-chatgpt-generated-bug-reports/
+SHIB 跨出迷因幣的野心，一文詳解新推 Shibarium L2 擴容、穩定柴犬幣 $SHIhttps://www.blocktempo.com/shib-meme-tokenomics-layer2-solution/
+FTX受害者必讀》雷曼破產律師蔡昆洲：散戶請律師有必要性？費用需多少？https://www.blocktempo.com/lawyer-kunchou-tsai-talks-about-ftx-refunding/
+Bitget 交易所為專業交易員推出「資金託管服務」，資產超過 10 萬鎂就可申請單獨錢包！https://www.blocktempo.com/bitget-assest-custody-service/
+金本位復活！俄羅斯、伊朗將合作發行「黃金穩定幣」，為突破美國制裁https://www.blocktempo.com/iran-and-russia-explore-to-issue-new-stablecoin-backed-by-gold/
+DCG遭爆「花大錢買新聞」掩破產危機；華爾街日報駁：純屬陰謀論https://www.blocktempo.com/wsj-denies-rumors-of-negotiations-with-dcg/
+蘋果元宇宙觸礁》彭博：旗艦AR眼鏡「無限延期」，轉向低價MR頭盔https://www.blocktempo.com/apple-delayed-ar-glasses-planning/
+ChatGPT 捧紅了AI 賽道！當前必知的 4 個「AI 概念」區塊鏈項目https://www.blocktempo.com/4-ai-related-blockchain-projects-of-2023/
+迷因幣》Floki「合作幣安Pay」暴漲28%，再推出商店Shop Flokihttps://www.blocktempo.com/floki-has-partnered-with-binance-pay/
 台灣｜9人狂刷幣託「交易所Bug」爽撈2,500萬加密貨幣！刑事法院判決出爐https://www.blocktempo.com/bito-were-exploited-in-2020-25-million-eth-and-usdt-were-stolen/
 FTX受害者必讀》10年交易所維權經驗的Tom告訴你：該自己請律師？要等多久？Steaker疑點？https://www.blocktempo.com/ftx-hacked-tom-soong-experience-to-refund-lawyer-steaker/
 CZ致全體用戶信：幣安客戶資產皆「存在隔離帳戶」！不會擅自挪用https://www.blocktempo.com/letter-from-cz-all-client-assets-are-stored-in-segregated-accounts/
-SushiSwap公布2023路線圖，Q1將推DEX聚合器，優化DAO結構、代幣經濟學https://www.blocktempo.com/sushi-roadmap-goals-for-2023/
-2.1億鎂代幣解鎖》2月將釋出1.45億枚dXdY；DAO 實體已推出路線圖https://www.blocktempo.com/more-than-5-68-million-dydx-will-be-unlocked/
-歐元區支持數位貨幣！英國央行卻質疑「數位英鎊」沒必要https://www.blocktempo.com/the-eurogroup-confirmed-its-support-for-digital-euro-research/
-數據報告》NFT 租賃在 Web3 遊戲中有多活躍？https://www.blocktempo.com/double-protocol-web3-games-nft-rental-report/
-以太坊信標鏈質押破1700萬枚ETH，逾七成部位仍虧損https://www.blocktempo.com/total-eth-deposited-exceeded-17-million/
-Aptos谷底反彈130％！核心開發者：2023年Gas費或將降至十分之一https://www.blocktempo.com/10x-lower-gas-fees-on-aptos/
-Oasys深度解析》L2延遲低於1秒、免Gas費，面向大眾玩家的遊戲公鏈https://www.blocktempo.com/oasys-blockchain-made-for-a-hub-of-the-multiverse/
-NEXO 逃到開曼群島註冊遭駁回！當局：會弄臭我們…https://www.blocktempo.com/nexo-rejected-to-register-by-cayman-islands-regulator/
-幣安新業務》Binance Custody冷錢包可直連交易所！餘額1:1鏡射https://www.blocktempo.com/binance-custody-launches-new-solution-binance-mirror/
-韓國政府出手！首爾上線元宇宙「Metaverse Seoul」，提供社交、市政服務https://www.blocktempo.com/seoul-metropolitan-government-officially-opened-its-public-metaverse-platform-on-monday/
-可讓「FTX受害者」交易債權！三箭Zhu Su聯手CoinFlex，募資2500萬鎂啟動GTXhttps://www.blocktempo.com/three-arrows-founder-zhu-su-seeks-25-million-for-new-exchange/
-Twitter整合加密貨幣》顯示30多種代幣價格！包含狗狗幣、SOL、MATIChttps://www.blocktempo.com/twitter-showing-more-crypto-tokens-price-now/
-NFT違反遊戲法！韓法院判屬「促進投機性贈品」，並支持禁掉 P2E 遊戲https://www.blocktempo.com/south-korean-court-ruled-that-nft-violated-existing-gaming-laws/
+總獎金25萬鎂》台北場TON黑客松報名開跑，2/11新黑馬公鏈等你來https://www.blocktempo.com/the-first-tonxdorahacks-in-taiwan/
+懶得打Code也想賺獎金！15人用ChatGPT寫漏洞報告，遭Immunefi永久封殺https://www.blocktempo.com/immunefi-banned-15-chatgpt-generated-bug-reports/
+SHIB 跨出迷因幣的野心，一文詳解新推 Shibarium L2 擴容、穩定柴犬幣 $SHIhttps://www.blocktempo.com/shib-meme-tokenomics-layer2-solution/
+Protico｜發佈企業應用 Web3 Lobby，並完成 Pre-Seed 輪融資https://www.blocktempo.com/protico-releases-web3-lobby/
+PlanB發文「現在是牛市陷阱」被質疑S2F模型，忙解釋：正處下輪牛市開端https://www.blocktempo.com/well-known-analyst-plan-b-says-this-is-bull-trap/
+創新工場已否認》KOL爆料李開復將成立Web3基金，獲香港金管局5千萬鎂投資https://www.blocktempo.com/us50-million-injection-from-hkma/
+SEC調查洩露礦工個資！電郵未加密流出，涉違反《隱私法》https://www.blocktempo.com/sec-leaked-crypto-miners-personal-information/
+FTX貪腐》超1/3美國會議員曾收SBF政治獻金，包括新任議長麥卡錫https://www.blocktempo.com/about-37-of-u-s-congressmen-have-received-ftx-political-contributions/
+日本最大Web3.0會議｜《TEAMZ WEB3.0 SUMMIT 2023》將於今年 5/17、5/18 舉辦https://www.blocktempo.com/teamz-web3-0-summit-2023/
+Bitfinex：通膨緩解帶比特幣衝近2.2萬鎂，但小心「假牛套房」https://www.blocktempo.com/bitfinex-alpha-warns-false-crypto-dawns/
+最新調查指 FTX.US 沒償付能力！SBF 回擊：怎可能，至少多1.1億鎂現金https://www.blocktempo.com/sbf-posted-to-deny-ftx-us-was-not-solvent/
+未爆彈預言！Circle執行長：2023會有更多類FTX事件https://www.blocktempo.com/circle-ceo-there-will-be-more-ftx-like-events-in-2023/
+FTX法院最新調查：確認有55億鎂流動資產！但超44億處審查狀態、3.23億遭未授權轉移https://www.blocktempo.com/ftx-5-billion-in-liquid-assets-has-been-identified/
 台灣｜9人狂刷幣託「交易所Bug」爽撈2,500萬加密貨幣！刑事法院判決出爐https://www.blocktempo.com/bito-were-exploited-in-2020-25-million-eth-and-usdt-were-stolen/
 FTX受害者必讀》10年交易所維權經驗的Tom告訴你：該自己請律師？要等多久？Steaker疑點？https://www.blocktempo.com/ftx-hacked-tom-soong-experience-to-refund-lawyer-steaker/
 CZ致全體用戶信：幣安客戶資產皆「存在隔離帳戶」！不會擅自挪用https://www.blocktempo.com/letter-from-cz-all-client-assets-are-stored-in-segregated-accounts/
-SushiSwap公布2023路線圖，Q1將推DEX聚合器，優化DAO結構、代幣經濟學https://www.blocktempo.com/sushi-roadmap-goals-for-2023/
-2.1億鎂代幣解鎖》2月將釋出1.45億枚dXdY；DAO 實體已推出路線圖https://www.blocktempo.com/more-than-5-68-million-dydx-will-be-unlocked/
-歐元區支持數位貨幣！英國央行卻質疑「數位英鎊」沒必要https://www.blocktempo.com/the-eurogroup-confirmed-its-support-for-digital-euro-research/
+總獎金25萬鎂》台北場TON黑客松報名開跑，2/11新黑馬公鏈等你來https://www.blocktempo.com/the-first-tonxdorahacks-in-taiwan/
+懶得打Code也想賺獎金！15人用ChatGPT寫漏洞報告，遭Immunefi永久封殺https://www.blocktempo.com/immunefi-banned-15-chatgpt-generated-bug-reports/
+SHIB 跨出迷因幣的野心，一文詳解新推 Shibarium L2 擴容、穩定柴犬幣 $SHIhttps://www.blocktempo.com/shib-meme-tokenomics-layer2-solution/
