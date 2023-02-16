@@ -129,7 +129,8 @@ sql = '''CREATE TABLE data_defi(
             tvl text,
             change_1h text,
             change_1d text,
-            change_7d text);'''
+            change_7d text,
+            url text);'''
 cursor.execute(sql)
 conn.commit()
 
@@ -139,27 +140,53 @@ json = r.json()
 
 for j in json:
         try:
-                cursor.execute("INSERT INTO data_defi(name, logo, tvl, change_1h, change_1d, change_7d) VALUES ('%s', '%s', '%s', '%s', '%s', '%s');" %(j["name"], j["logo"], j["tvl"], j["change_1h"], j["change_1d"], j["change_7d"]))
+                cursor.execute("INSERT INTO data_defi(name, logo, tvl, change_1h, change_1d, change_7d, url) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');" %(j["name"], j["logo"], j["tvl"], j["change_1h"], j["change_1d"], j["change_7d"], j["url"]))
                 conn.commit()
         except Exception as ex:#例外錯誤處理 
                 print(ex)
 
 #取出資料
 cursor.execute("SELECT logo FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
-f = cursor.fetchall()
-f = open('logo.txt', 'w') 
-for s in sel:
-    f.write(str(s['href'] + s.text + '\n'))
-f.close()
-# data_logo = "\n".join([str(l) for l in f])
+data_logo = cursor.fetchall()
+data_logo_0 = ''.join(data_logo[0])#轉str
+data_logo_1 = ''.join(data_logo[1])
+data_logo_2 = ''.join(data_logo[2])
+data_logo_3 = ''.join(data_logo[3])
+data_logo_4 = ''.join(data_logo[4])
 
 cursor.execute("SELECT name FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
-date_name = cursor.fetchall() 
+data_name = cursor.fetchall() 
+data_name_0 = ''.join(data_name[0])
+data_name_1 = ''.join(data_name[1])
+data_name_2 = ''.join(data_name[2])
+data_name_3 = ''.join(data_name[3])
+data_name_4 = ''.join(data_name[4])
+
+cursor.execute("SELECT url FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
+data_url = cursor.fetchall() 
+data_url_0 = ''.join(data_url[0])
+data_url_1 = ''.join(data_url[1])
+data_url_2 = ''.join(data_url[2])
+data_url_3 = ''.join(data_url[3])
+data_url_4 = ''.join(data_url[4])
 
 def Defi(request):
     return render(request, 'defi.html',{
-        'data_logo' : data_logo.text,
-        'date_name' : date_name
+        'data_logo_0' : data_logo_0,
+        'data_logo_1' : data_logo_1,
+        'data_logo_2' : data_logo_2,
+        'data_logo_3' : data_logo_3,
+        'data_logo_4' : data_logo_4,
+        'data_name_0' : data_name_0,
+        'data_name_1' : data_name_1,
+        'data_name_2' : data_name_2,
+        'data_name_3' : data_name_3,
+        'data_name_4' : data_name_4,
+        'data_url_0' : data_url_0,
+        'data_url_1' : data_url_1,
+        'data_url_2' : data_url_2,
+        'data_url_3' : data_url_3,
+        'data_url_4' : data_url_4,
     })
 
 

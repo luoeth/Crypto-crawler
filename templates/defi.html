@@ -1,8 +1,50 @@
 {% extends 'crypto.html' %}
 
 {% block body %}
-    <p>
-        <img src="{{ data_logo }}" width="40" height="40" class="d-inline-block align-top" alt="">
+    <h4>  
+        <span class="badge badge-primary">tvl>30m</span>
+        <span class="badge badge-success">change_1h+5%</span>
+        <span class="badge badge-danger">change_1d+10%</span>
+        <span class="badge badge-warning">change_7d+30%</span>
+    </h4>
+    
         
-    </p>
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="{{ data_logo_0 }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{data_name_0}}</h5>
+                <a href="{{data_url_0}}" class="btn btn-primary">Go {{data_name_0}}</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ data_logo_1 }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{data_name_1}}</h5>
+                <a href="{{data_url_1}}" class="btn btn-primary">Go {{data_name_1}}</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ data_logo_2 }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{data_name_2}}</h5>
+                <a href="{{data_url_2}}" class="btn btn-primary">Go {{data_name_2}}</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ data_logo_3 }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{data_name_3}}</h5>
+                <a href="{{data_url_3}}" class="btn btn-primary">Go {{data_name_3}}</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ data_logo_4 }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{data_name_4}}</h5>
+                <a href="{{data_url_4}}" class="btn btn-primary">Go {{data_name_4}}</a>
+              </div>
+            </div>
+          </div>
+    
 {% endblock %}

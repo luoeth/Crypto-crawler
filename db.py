@@ -42,10 +42,14 @@ for j in json:
                 print(ex)
 
 #取出資料
-cursor.execute("SELECT name, logo FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
+cursor.execute("SELECT logo FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
 f = cursor.fetchall() 
+date = "".join(f[0])
+date2 = "".join(f[1])
 # data_defi = "".join([str(l) for l in f])
-print(f)
+
+print(date)
+print(date2)
 cursor.close()
 conn.close()
 
