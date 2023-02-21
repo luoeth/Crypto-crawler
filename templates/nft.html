@@ -1,0 +1,43 @@
+{% extends 'crypto.html' %}
+
+{% block body %}
+
+<h1 style="font-family:Arial Black;">Top-selling Nft</h1>
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="{{ logo_0 }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ name_0 }}</h5>
+        <p class="card-text">{{ description_0 }}</p>
+      </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="{{ logo_1 }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ name_1 }}</h5>
+          <p class="card-text">{{ description_1 }}</p>
+        </div>
+      </div>
+    <div class="card">
+        <img class="card-img-top" src="{{ logo_2 }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ name_2 }}</h5>
+            <p class="card-text">{{ description_2 }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="{{ logo_3 }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ name_3 }}</h5>
+            <p class="card-text">{{ description_3 }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="{{ logo_4 }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ name_4 }}</h5>
+            <p class="card-text">{{ description_4 }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

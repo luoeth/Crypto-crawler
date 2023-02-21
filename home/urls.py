@@ -8,4 +8,5 @@ urlpatterns = [
     path('blocktempo', views.Blocktempo, name='Blocktempo'),
     path('abmedia', views.Abmedia, name='Abmedia'),
     path('defi', views.Defi, name='Defi'),
+    path('nft', views.Nft, name='Nft'),
 ]

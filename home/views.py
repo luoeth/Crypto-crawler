@@ -113,13 +113,15 @@ data_abmedia = cursor.fetchall()
 
 def Abmedia(request):
     return render(request, 'abmedia.html',{
-        'data_abmedia' : pd.Series(data_abmedia)
+        'data_abmedia' : pd.DataFrame(data_abmedia)
     })
 
 #增加欄寬，讓資料完整顯示
 pd.set_option('max_colwidth', 800)
 
 
+
+# DefiLlama 
  #如果crypto已經存在的話就刪除
 cursor.execute('DROP TABLE IF EXISTS data_defi')
 #建立table
@@ -146,29 +148,32 @@ for j in json:
                 print(ex)
 
 #取出資料
-cursor.execute("SELECT logo FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
-data_logo = cursor.fetchall()
-data_logo_0 = ''.join(data_logo[0])#轉str
-data_logo_1 = ''.join(data_logo[1])
-data_logo_2 = ''.join(data_logo[2])
-data_logo_3 = ''.join(data_logo[3])
-data_logo_4 = ''.join(data_logo[4])
+try:
+    cursor.execute("SELECT logo FROM data_defi WHERE tvl>20000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
+    data_logo = cursor.fetchall()
+    data_logo_0 = ''.join(data_logo[0])#轉str
+    data_logo_1 = ''.join(data_logo[1])
+    data_logo_2 = ''.join(data_logo[2])
+    data_logo_3 = ''.join(data_logo[3])
+    data_logo_4 = ''.join(data_logo[4])
 
-cursor.execute("SELECT name FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
-data_name = cursor.fetchall() 
-data_name_0 = ''.join(data_name[0])
-data_name_1 = ''.join(data_name[1])
-data_name_2 = ''.join(data_name[2])
-data_name_3 = ''.join(data_name[3])
-data_name_4 = ''.join(data_name[4])
+    cursor.execute("SELECT name FROM data_defi WHERE tvl>20000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
+    data_name = cursor.fetchall() 
+    data_name_0 = ''.join(data_name[0])
+    data_name_1 = ''.join(data_name[1])
+    data_name_2 = ''.join(data_name[2])
+    data_name_3 = ''.join(data_name[3])
+    data_name_4 = ''.join(data_name[4])
 
-cursor.execute("SELECT url FROM data_defi WHERE tvl>30000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
-data_url = cursor.fetchall() 
-data_url_0 = ''.join(data_url[0])
-data_url_1 = ''.join(data_url[1])
-data_url_2 = ''.join(data_url[2])
-data_url_3 = ''.join(data_url[3])
-data_url_4 = ''.join(data_url[4])
+    cursor.execute("SELECT url FROM data_defi WHERE tvl>20000000 and change_1h>0.05 and change_1d>0.1 and change_7d>0.3")
+    data_url = cursor.fetchall() 
+    data_url_0 = ''.join(data_url[0])
+    data_url_1 = ''.join(data_url[1])
+    data_url_2 = ''.join(data_url[2])
+    data_url_3 = ''.join(data_url[3])
+    data_url_4 = ''.join(data_url[4])
+except Exception as ex:#例外錯誤處理 
+                print(ex)
 
 def Defi(request):
     return render(request, 'defi.html',{
@@ -189,6 +194,39 @@ def Defi(request):
         'data_url_4' : data_url_4,
     })
 
+
+#Opensea
+url = "https://api.nftport.xyz/v0/contracts/top?page_size=10&page_number=1&period=24h&order_by=volume&chain=ethereum&chain=polygon"
+headers = {
+    "accept": "application/json",
+    "Authorization": "9e1066ba-9854-4153-af9e-0959a5d7f6df"
+}
+
+response = requests.get(url, headers=headers)
+response_dict = response.json()#轉為字典dict
+response_content = response_dict['contracts']#取出contracts裡的list
+dict = {}#將list轉dict
+for i in range(len(response_content)):
+    dict[i]=response_content[i]
+
+def Nft(request):
+    return render(request, 'nft.html',{
+        'name_0' : dict[0]['name'],
+        'logo_0' : dict[0]['metadata']['thumbnail_url'],
+        'description_0' : dict[0]['metadata']['description'],
+        'name_1' : dict[1]['name'],
+        'logo_1' : dict[1]['metadata']['thumbnail_url'],
+        'description_1' : dict[1]['metadata']['description'],
+        'name_2' : dict[2]['name'],
+        'logo_2' : dict[2]['metadata']['thumbnail_url'],
+        'description_2' : dict[2]['metadata']['description'],
+        'name_3' : dict[3]['name'],
+        'logo_3' : dict[3]['metadata']['thumbnail_url'],
+        'description_3' : dict[3]['metadata']['description'],
+        'name_4' : dict[4]['name'],
+        'logo_4' : dict[4]['metadata']['thumbnail_url'],
+        'description_4' : dict[4]['metadata']['description'],
+    })
 
 
 cursor.close()
